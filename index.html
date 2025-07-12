@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BeautyLine Zone</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #000080;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      line-height: 1.6;
+    }
+
+    nav {
+      background-color: #001f4d;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 20px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .container {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+
+    h1 {
+      font-size: 3.2em;
+      margin-bottom: 10px;
+      color: #ffcc00;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #e0e0e0;
+    }
+
+    .ad-table {
+      width: 90%;
+      max-width: 1000px;
+      margin: 50px auto;
+      border-collapse: collapse;
+      background-color: #001a66;
+      box-shadow: 0 0 20px rgba(255,255,255,0.1);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .ad-table th,
+    .ad-table td {
+      padding: 20px;
+      text-align: center;
+      border-bottom: 1px solid #ffffff22;
+    }
+
+    .ad-table th {
+      background-color: #003399;
+      font-size: 1.1em;
+      color: #ffcc00;
+      text-transform: uppercase;
+    }
+
+    .ad-table img {
+      width: 150px;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .ad-table img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      .ad-table img {
+        width: 100px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Menu -->
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+
+  <!-- Welcome Section -->
+  <div class="container">
+    <h1>Welcome to BeautyLine Zone</h1>
+    <p>Your one-stop space for style, tech, and everyday essentials.</p>
+  </div>
+
+  <!-- Ads Table Section -->
+  <table class="ad-table">
+    <tr>
+      <th>Image</th>
+      <th>Title</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><img src="C:\Users\Huawei\Pictures\Camera Roll\WIN_20250712_16_43_07_Pro.jpg" alt="Ad 1"></td>
+      <td>Stylish Shoes</td>
+      <td>Trendy and comfortable footwear for all occasions.</td>
+    </tr>
+    <tr>
+      <td><img src="C:\Users\Huawei\Pictures\Camera Roll\WIN_20250712_16_27_22_Pro.jpg" alt="Ad 2"></td>
+      <td>Smartphone Pro</td>
+      <td>The latest smartphone with cutting-edge technology.</td>
+    </tr>
+    <tr>
+      <td><img src="C:\Users\Huawei\Pictures\Camera Roll\WIN_20250712_16_29_26_Pro.jpg" alt="Ad 3"></td>
+      <td>Backpack Classic</td>
+      <td>Durable, spacious, and perfect for travel or school.</td>
+    </tr>
+  </table>
+
+</body>
+</html>
